@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Viewer</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <!-- <div id="navbar">
+            <div id="logo">
+                <img src="assets/logo.png" alt="logo">
+            </div>
+        </div> -->
+
+        <div id="aSide">
+            <model-viewer src="assets/model.glb" alt="Model design" auto-rotate camera-controls ar ios-src="assets/model"></model-viewer>
+        </div>
+
+        <div id="content">
+            <img src="assets/logo.png" alt="logo">
+            <!-- <h2>Toi Toi Toi</h2> -->
+            <p>Our products are designed for children to use, so choose a cute appearance: ducks and airplanes.
+                And our products are used in the way of pressing from top to bottom to squeeze out the toothpaste.</p>
+            <button>-- Thank you --</button>
+        </div>
+
+        
+    </div>
+</body>
+
+</html>
