@@ -46,7 +46,7 @@
 
 #content img {
     display: block; /* Set display property to block */
-    height: 60%; /* Adjusted height */
+    height: auto; /* Adjusted height */
     width: 100%; /* Adjusted width to fit the container */
     max-width: 650px; /* Added max-width to avoid overflow */
     margin: 0 auto; /* Center the image */
